@@ -9,8 +9,6 @@ import TwitterIcon from '../../assets/twitter.png';
 import YoutubeIcon from '../../assets/youtube.png';
 import InstagramIcon from '../../assets/instagram.png';
 import emailjs from '@emailjs/browser';
-import { Link } from 'react-scroll';
-
 
 const Contact = () => {
   const form = useRef();
