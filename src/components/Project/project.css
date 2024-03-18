@@ -1,0 +1,52 @@
+#projectPage{
+  min-height: calc(100vh - 4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactPageTitle{
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.clientDesc{
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.clientImgs {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clientImg {
+  position: relative;
+  object-fit: cover;
+  height: 17rem;
+  width: 27rem ;
+  min-width: 9rem;
+  margin: 0 0.75rem;
+  padding: 0.25rem;
+  transition: transform 0.3s ease;
+}
+
+
+.clientImg:hover {
+  transform: scale(1.1);
+}
+
+.clientImg:hover .projectName {
+  opacity: 1;
+}
+
+#clients{
+  padding: 2rem;
+} 

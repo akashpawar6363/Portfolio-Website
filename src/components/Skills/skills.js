@@ -2,7 +2,6 @@ import React from 'react'
 import './skills.css';
 import UIDesign from '../../assets/ui-design.png';
 import WebDesign from '../../assets/website-design.png';
-import AppDesign from '../../assets/app-design.png';
 
 
 
@@ -23,14 +22,7 @@ const Skills = () => {
           <img src={WebDesign} alt='WebDesign' className='skillBarImg'/>
           <div className='skillBarText'>
             <h2>Website Design</h2>
-            <p>I merge technical expertise with artistic flair to deliver captivating digital solutions. Dive into my collection of projects to witness firsthand the seamless fusion of functionality and aesthetics. Let's collaborate to bring your vision to life.</p>
-          </div>
-        </div>
-        <div className='skillBar'>
-          <img src={AppDesign} alt='AppDesign' className='skillBarImg'/>
-          <div className='skillBarText'>
-            <h2>App Design</h2>
-            <p>Crafted by a seasoned designer, my portfolio showcases my expertise in App Design through a collection of sleek and intuitive interfaces. Explore my innovative designs, thoughtfully crafted user experiences, and attention to detail, reflecting my commitment to delivering exceptional digital solutions.</p>
+            <p> I showcase my expertise in full-stack website design, where I seamlessly integrate front-end and back-end technologies to create dynamic and responsive web experiences. Leveraging a combination of HTML, CSS, JavaScript, and various server-side languages and frameworks, I craft user-friendly interfaces with robust functionality. From concept to deployment, I specialize in delivering comprehensive solutions that meet both client needs and industry standards.</p>
           </div>
         </div>
       </div>

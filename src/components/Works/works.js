@@ -1,28 +1,37 @@
 import React from 'react';
 import './works.css';
-import Portfolio1 from '../../assets/portfolio-1.png';
-import Portfolio2 from '../../assets/portfolio-2.png';
-import Portfolio3 from '../../assets/portfolio-3.png';
-import Portfolio4 from '../../assets/portfolio-4.png';
-import Portfolio5 from '../../assets/portfolio-5.png';
-import Portfolio6 from '../../assets/portfolio-6.png';
+import c from '../../assets/C++.png';
+import html from '../../assets/HTML.png';
+import css from '../../assets/CSS.png';
+import javascript from '../../assets/JavaScript.png';
+import reactjs from '../../assets/reactjs.png'
+import java from '../../assets/java.png';
+import springboot from '../../assets/springboot.png';
+import aws from '../../assets/AWS.jpg';
+import github from '../../assets/github.png';
+import MySQL from '../../assets/mysql.png';
+
 
 const Works = () => {
   return (
     <section id='works'>
-      <h2 className='worksTittle'>My Portfolio</h2>
-      <span className='worksDesc'>I take pride in paying attention to the smallest details and making sure that my work is pixel 
-      perfect. I am excited to bring my skills and experience to help businesses 
-      achieve their goals and create a strong online presence.</span>
+      <h2 className='worksTittle'>My Skills</h2>
+      <span className='worksDesc'>
+        Proficient in a diverse array of technologies including C++, Java, and Spring Boot for robust backend development.
+        Skilled in crafting dynamic and responsive frontend experiences with HTML, CSS, and JavaScript. 
+        Experienced in version control and collaboration using GitHub. Additionally, proficient in React.js for building interactive user interfaces and MySQL for efficient data management.</span>
       <div className='worksImgs'>
-        <img src={Portfolio1} alt='portfolio1' className='worksImg'/>
-        <img src={Portfolio2} alt='portfolio2' className='worksImg'/>
-        <img src={Portfolio3} alt='portfolio3' className='worksImg'/>
-        <img src={Portfolio4} alt='portfolio4' className='worksImg'/>
-        <img src={Portfolio5} alt='portfolio5' className='worksImg'/>
-        <img src={Portfolio6} alt='portfolio6' className='worksImg'/>
+        <img src={c} alt='c' className='worksImg'/>
+        <img src={html} alt='html' className='worksImg'/>
+        <img src={css} alt='css' className='worksImg'/>
+        <img src={javascript} alt='javascript' className='worksImg'/>
+        <img src={reactjs} alt='reactjs' className='worksImg'/>
+        <img src={java} alt='java' className='worksImg'/>
+        <img src={springboot} alt='springboot' className='worksImg'/>
+        <img src={aws} alt='aws' className='worksImg'/>
+        <img src={MySQL} alt='mysql' className='worksImg'/>
+        <img src={github} alt='github' className='worksImg'/>
       </div>
-      <button className='workBtn'>See More</button>
     </section>
   )
 }
