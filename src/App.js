@@ -9,6 +9,11 @@ import Footer from "./components/Footer/footer";
 function App() {
   return (
     <div className="App">
+    <Helmet>
+        <meta name="google-site-verification" content="AWZz69W_ceCGK5fRsMw7M6pSXxBRnAgCrGX2BsXKGQk" />
+        <title>My Portfolio Site</title>
+        <meta name="description" content="My Portfolio Site" />
+      </Helmet>
       <Navbar/>
       <Intro/>
       <Skills/>
